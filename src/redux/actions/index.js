@@ -14,7 +14,7 @@ export const THROW_ERROR_RECIPE_DETAILS = "THROW_ERROR_RECIPE_DETAILS";
 
 export function getRecipes() {
   return async function (dispatch) {
-    const recipes = await axios.get("http://localhost:3001/recipes");
+    const recipes = await axios.get("/recipes");
     dispatch({
       type: GET_RECIPES,
       payload: recipes.data
@@ -25,7 +25,7 @@ export function getRecipes() {
 export function getRecipeDetails(recipeId) {
   return async function (dispatch) {
     try {
-      const recipeDetails = await axios.get(`http://localhost:3001/recipes/${recipeId}`);
+      const recipeDetails = await axios.get(`/recipes/${recipeId}`);
       dispatch({
         type: GET_RECIPE_DETAILS,
         payload: recipeDetails.data
@@ -41,7 +41,7 @@ export function getRecipeDetails(recipeId) {
 export function searchRecipes(title) {
   return async function (dispatch) {
     try {
-      const searchedRecipes = await axios.get(`http://localhost:3001/recipes?title=${title}`);
+      const searchedRecipes = await axios.get(`/recipes?title=${title}`);
       dispatch({
         type: SEARCH_RECIPES,
         payload: searchedRecipes.data
@@ -75,7 +75,7 @@ export function filterRecipes(recipes) {
 export function postRecipe(recipe) {
   return async function (dispatch) {
     try {
-      const newRecipe = await axios.post("http://localhost:3001/recipes", recipe);
+      const newRecipe = await axios.post("/recipes", recipe);
       dispatch({
         type: POST_RECIPE,
         payload: newRecipe.data
@@ -88,7 +88,7 @@ export function postRecipe(recipe) {
 
 export function getDiets() {
   return async function (dispatch) {
-    const diets = await axios.get("http://localhost:3001/diets");
+    const diets = await axios.get("/diets");
     dispatch({
       type: GET_DIETS,
       payload: diets.data
