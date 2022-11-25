@@ -1,0 +1,18 @@
+{
+  "extends": ["react-app", "airbnb", "prettier"],
+  "plugins": [],
+  "rules": {
+    "semi": 0,
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "no-unused-vars": "warn",
+    "react/prop-types": "off",
+    "radix": [1, "as-needed"],
+    "no-underscore-dangle": "off",
+    "func-names": "off",
+    "no-nested-ternary": "off",
+    "react/jsx-no-useless-fragment": "off",
+    "react/no-array-index-key": "off",
+    "jsx-a11y/click-events-have-key-events": "off",
+    "jsx-a11y/no-static-element-interactions": "off"
+  }
+}

@@ -1,0 +1,58 @@
+.containerOne {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(100, 7, 0, 0.735);
+  position: fixed;
+  left: 25vw;
+  top: 20vh;
+  right: 25vw;
+  bottom: 30vh;
+  border-radius: 3rem;
+}
+
+.containerTwo {
+  border-radius: 1rem;
+  position: fixed;
+  left: 30vw;
+  right: 30vw;
+  border: 0.2rem solid rgba(131, 8, 8, 0.89);
+  background-color: rgb(203, 108, 0);
+}
+
+.containerThree {
+  font-size: 1.3rem;
+  font-weight: 700;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgba(131, 8, 8, 0.89);
+  padding: 0.9rem;
+}
+
+.buttonDiv {
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+  padding: 0.6rem;
+}
+
+.btnClose {
+  border: 3px solid white;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  font-size: 1rem;
+  padding: 0.6rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: oblique;
+}
+
+.btnClose:hover {
+  border: 3px solid black;
+  color: white;
+  border: 0.2rem solid white;
+  border-radius: 10px;
+  padding: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: rgba(131, 8, 8, 0.89);
+  transition: 0.8s;
+}

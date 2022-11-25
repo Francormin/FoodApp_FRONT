@@ -1,0 +1,145 @@
+.Home {
+  color: rgb(184, 80, 0);
+  min-height: 100vh;
+  background-image: url(../assets/img3.jpg);
+  background-position: top;
+}
+
+.navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: black;
+  filter: opacity(65%);
+  font-size: 20px;
+  background: linear-gradient(150deg, rgb(0, 0, 0) 40%, rgb(103, 0, 0) 100%);
+}
+
+.navBar:hover {
+  background-color: black;
+  filter: opacity(85%);
+  background: linear-gradient(150deg, rgb(0, 0, 0) 0%, rgb(69, 0, 0) 100%);
+}
+
+.navBarLink {
+  text-decoration: none;
+  color: rgb(212, 209, 0);
+  margin: 20px 45px;
+  padding: 20px;
+}
+
+.navBarLink:hover {
+  font-weight: bold;
+  font-weight: 23px;
+  padding-top: 15px;
+}
+
+.loadingGif {
+  margin-top: 90px;
+  border-radius: 10px;
+  width: 550px;
+  height: 400px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.paginationSection {
+  display: flex;
+  justify-content: center;
+  margin: 25px 290px 0px 290px;
+  background-color: rgb(69, 0, 0);
+  border-radius: 35px;
+  padding: 10px;
+}
+
+.paginationSection button:enabled {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 20px;
+  font-size: 17px;
+}
+
+.inactive {
+  background-color: rgb(203, 108, 0);
+  color: black;
+  border: 2px solid black;
+}
+
+.inactive:hover {
+  background-color: rgb(69, 0, 0);
+  color: rgb(203, 108, 0);
+  border: 2px solid rgb(203, 108, 0);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.active {
+  background-color: rgb(69, 0, 0);
+  color: rgb(203, 108, 0);
+  border: 2px solid rgb(203, 108, 0);
+  font-weight: bold;
+}
+
+.btn1:enabled {
+  background-color: rgb(203, 108, 0);
+  color: black;
+  border: 2px solid black;
+}
+
+.btn1:enabled:hover {
+  background-color: rgb(69, 0, 0);
+  color: rgb(203, 108, 0);
+  border: 2px solid rgb(203, 108, 0);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn1:disabled {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 20px;
+  font-size: 17px;
+}
+
+.searchBar {
+  padding: 15px;
+}
+input {
+  border-radius: 10px;
+  font-size: 17px;
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+  color: rgb(203, 108, 0);
+  background-color: rgba(0, 48, 85, 0.777);
+  margin-top: 15px;
+  border: 3px solid rgb(203, 108, 0);
+}
+
+.searchButton:hover {
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.order-filter {
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+select {
+  border-radius: 10px;
+  font-size: 17px;
+  text-align: center;
+  padding: 8px;
+  color: rgb(203, 108, 0);
+  background-color: rgba(0, 48, 85, 0.777);
+  margin-top: 15px;
+  border: 3px solid rgb(203, 108, 0);
+  cursor: pointer;
+}

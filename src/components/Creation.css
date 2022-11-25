@@ -1,0 +1,116 @@
+.Creation {
+  background-image: url(../assets/img2.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.Creation h1 {
+  color: yellow;
+  background-color: black;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.Form {
+  background-color: rgb(69, 0, 0);
+  border-radius: 25px;
+  padding: 40px;
+  background: linear-gradient(150deg, rgb(158, 69, 0));
+  filter: opacity(75%);
+  transition: 3s;
+  color: yellow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 450px;
+  margin-top: 25px;
+}
+
+.Form:hover {
+  box-shadow: 5px 5px 5px 5px rgb(158, 69, 0);
+  transition: 3s;
+  filter: opacity(95%);
+}
+
+.Form label {
+  font-size: 20px;
+  margin: 15px 0px;
+}
+
+.loadingGif {
+  margin-top: 90px;
+  border-radius: 10px;
+  width: 550px;
+  height: 400px;
+}
+
+.btnBack {
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.btnBack:hover {
+  border: 3px solid white;
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 15px;
+}
+
+.closeButton {
+  border-radius: 10px;
+}
+
+.dietsSelected {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.diets {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.error {
+  color: rgb(167, 0, 0);
+  background-color: black;
+  border-radius: 15px;
+  margin-top: 10px;
+  padding: 0px 10px;
+}
+
+.submitButton {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.submitButton:hover {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.submitButton:disabled {
+  opacity: 0.5;
+  font-size: 18px;
+  border-radius: 15px;
+  padding: 15px;
+  margin-top: 40px;
+  cursor: auto;
+}
+
+.imageLabel {
+  margin-top: 0px;
+}

@@ -1,0 +1,125 @@
+.detailsCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: black;
+}
+
+.Details {
+  width: 70%;
+  background-color: rgb(184, 80, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+
+.Details h3 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 22px;
+  text-decoration: underline;
+}
+
+.firstContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 90%;
+  margin: 10px 0px 35px 0px;
+}
+
+.firstContainerChild1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px 40px 0px 5px;
+}
+
+.recipe_img {
+  height: 350px;
+  width: 480px;
+  border-radius: 10px;
+  margin: 20px 10px 0px 0px;
+  border: 3px solid black;
+}
+
+.firstContainerChild2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5px 5px 0px 30px;
+  padding: 10px;
+  height: 300px;
+}
+
+.recipe_title {
+  font-weight: bold;
+  font-family: cursive;
+  font-size: 26px;
+}
+
+.recipe_score {
+  background-color: black;
+  color: rgb(184, 80, 0);
+  border-radius: 35px;
+  height: 40px;
+  display: flex;
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.dietTypes {
+  font-size: 20px;
+}
+
+.bigText {
+  font-size: 18px;
+  margin: 15px;
+}
+
+.noSteps {
+  color: red;
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.Button {
+  margin: 20px 0px;
+}
+
+.Button button {
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 15px;
+}
+
+.Button button:hover {
+  border: 3px solid white;
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  padding: 15px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.gifContainer {
+  background-color: black;
+  min-height: 100vh;
+}
+
+.gifContainer img {
+  margin-top: 120px;
+  border-radius: 10px;
+  width: 550px;
+  height: 400px;
+}

@@ -1,0 +1,39 @@
+.Card {
+  background-color: rgb(69, 0, 0);
+  border-radius: 20px;
+  margin: 15px;
+  padding: 10px;
+  width: 450px;
+  background: linear-gradient(150deg, rgb(69, 0, 0) 0%, rgb(69, 0, 0) 100%);
+  filter: opacity(90%);
+  transition: 0.7s;
+}
+
+.Card:hover {
+  transition: 0.7s;
+  box-shadow: 5px 5px 10px 0px rgb(203, 108, 0);
+  filter: opacity(100%);
+}
+
+.Card img {
+  border-radius: 15px;
+  height: 300px;
+  width: 400px;
+}
+
+.Card p {
+  font-size: 19px;
+}
+
+.Card h2 {
+  text-decoration: underline;
+}
+
+.Card h3 {
+  text-decoration: underline;
+}
+
+.Card li {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
